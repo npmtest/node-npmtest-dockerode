@@ -1,7 +1,10 @@
-# test coverage for  [dockerode (v2.4.3)](https://github.com/apocas/dockerode#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-dockerode.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-dockerode) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-dockerode.svg)](https://travis-ci.org/npmtest/node-npmtest-dockerode)
+# npmtest-dockerode
+
+#### basic test coverage for  [dockerode (v2.4.3)](https://github.com/apocas/dockerode#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-dockerode.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-dockerode) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-dockerode.svg)](https://travis-ci.org/npmtest/node-npmtest-dockerode)
+
 #### Docker Remote API module.
 
-[![NPM](https://nodei.co/npm/dockerode.png?downloads=true)](https://www.npmjs.com/package/dockerode)
+[![NPM](https://nodei.co/npm/dockerode.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/dockerode)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-dockerode/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-dockerode/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-dockerode/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-dockerode/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-dockerode/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-dockerode/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-dockerode/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-dockerode/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-dockerode/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-dockerode/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-dockerode%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-dockerode/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-dockerode/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-dockerode/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-dockerode/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-dockerode%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-dockerode/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-dockerode/build/test-report.html](https://npmtest.github.io/node-npmtest-dockerode/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-dockerode/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-dockerode/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-dockerode/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-dockerode/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-dockerode/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-dockerode/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-dockerode/build/screenCapture.npmPackageListing.svg)
 
@@ -27,8 +36,7 @@
 
 {
     "author": {
-        "name": "Pedro Dias",
-        "email": "petermdias@gmail.com"
+        "name": "Pedro Dias"
     },
     "bugs": {
         "url": "https://github.com/apocas/dockerode/issues"
@@ -36,42 +44,34 @@
     "contributors": [
         {
             "name": "Pedro Dias",
-            "email": "petermdias@gmail.com",
             "url": "https://github.com/apocas"
         },
         {
             "name": "James Lal",
-            "email": "jlal@mozilla.com",
             "url": "https://github.com/lightsofapollo"
         },
         {
             "name": "Ron Waldon",
-            "email": "jokeyrhyme@gmail.com",
             "url": "https://github.com/jokeyrhyme"
         },
         {
             "name": "Everton Ribeiro",
-            "email": "nuxlli@gmail.com",
             "url": "https://github.com/nuxlli"
         },
         {
             "name": "Sam Rijs",
-            "email": "srijs@airpost.net",
             "url": "https://github.com/srijs"
         },
         {
             "name": "Shannon Poole",
-            "email": "shannon.m.poole@gmail.com",
             "url": "https://github.com/shannonmpoole"
         },
         {
             "name": "Max Claus Nunes",
-            "email": "maxcnunes@gmail.com",
             "url": "https://github.com/maxcnunes"
         },
         {
             "name": "Mike MacCana",
-            "email": "mike.maccana@gmail.com",
             "url": "https://github.com/mikemaccana"
         },
         {
@@ -80,7 +80,6 @@
         },
         {
             "name": "Nicholas Morsman",
-            "email": "nicholas@publishlab.com",
             "url": "https://github.com/nmorsman"
         },
         {
@@ -89,52 +88,42 @@
         },
         {
             "name": "Anton Serdyuk",
-            "email": "anton.serdyuk@gmail.com",
             "url": "https://github.com/m00t"
         },
         {
             "name": "Dan Williams",
-            "email": "me+github@deedubs.com",
             "url": "https://github.com/deedubs"
         },
         {
             "name": "Alex Wolfe",
-            "email": "alexkwolfe@gmail.com",
             "url": "https://github.com/alexkwolfe"
         },
         {
             "name": "Henry Allen-Tilford",
-            "email": "htilford@gmail.com",
             "url": "https://github.com/generalhenry"
         },
         {
             "name": "Geoffrey Bachelet",
-            "email": "geoffrey.bachelet@gmail.com",
             "url": "https://github.com/ubermuda"
         },
         {
             "name": "Jacob Friis Saxberg",
-            "email": "jacob@saxberg.dk",
             "url": "https://github.com/webjay"
         },
         {
             "name": "Jeffrey Morgan",
-            "email": "jmorganca@gmail.com",
             "url": "https://github.com/jeffdm"
         },
         {
             "name": "Kishore Nallan",
-            "email": "kishore@kishorelive.com",
             "url": "https://github.com/kishorenc"
         },
         {
             "name": "Mathias Buus",
-            "email": "mathiasbuus@gmail.com",
             "url": "https://github.com/mafintosh"
         },
         {
             "name": "Matthew Gallagher",
-            "email": "mattva01@gmail.com",
             "url": "https://github.com/mattva01"
         },
         {
@@ -143,22 +132,18 @@
         },
         {
             "name": "Mike Macaulay",
-            "email": "mmacaula@gmail.com",
             "url": "https://github.com/mmacaula"
         },
         {
             "name": "Josh Matthews",
-            "email": "josh@jmatthews.us",
             "url": "https://github.com/jmatth"
         },
         {
             "name": "Vincent Woo",
-            "email": "vincent@coderpad.io",
             "url": "https://github.com/vincentwoo"
         },
         {
             "name": "Lewis J Ellis",
-            "email": "me@lewisjellis.com",
             "url": "https://github.com/LewisJEllis"
         },
         {
@@ -196,13 +181,11 @@
     "main": "./lib/docker",
     "maintainers": [
         {
-            "name": "apocas",
-            "email": "petermdias@gmail.com"
+            "name": "apocas"
         }
     ],
     "name": "dockerode",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+ssh://git@github.com/apocas/dockerode.git"
